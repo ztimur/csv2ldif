@@ -1,0 +1,32 @@
+dn:: {{ dn }}
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn:: {{ cn }}
+sn:: {{ sn }}
+givenName:: {{ givenName }}
+distinguishedName:: {{ dn }}
+displayName:: {{ displayName }}
+name:: {{ cn }}
+userPrincipalName: {{ uid }}@edu.knu.kg
+instanceType: 4
+logonHours:: ////////////////////////////
+accountExpires: 0
+codePage: 0
+countryCode: 0
+sAMAccountName: {{ uid }}
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edu,DC=knu,DC=kg
+
+dn:: {{ dn }}
+changetype: modify
+replace: unicodePwd
+unicodePwd:: {{ unicodePwd }}
+-
+
+dn:: {{ dn }}
+changetype: modify
+replace: userAccountControl
+userAccountControl: 66048
+-

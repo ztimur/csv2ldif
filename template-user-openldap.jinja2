@@ -1,0 +1,16 @@
+dn:: {{ dn }}
+objectClass: top
+objectClass: posixAccount
+objectClass: inetOrgPerson
+cn: {{ uid }}
+gidNumber: 501
+homeDirectory: /home/{{ uid }}
+sn:: {{ sn }}
+uid: {{ uid }}
+uidNumber: {{ uidNumber }}
+departmentNumber:: {{ department }}
+givenName:: {{ givenName }}
+mail: {{ mail }}
+ou:: {{ organization }}
+userPassword:: {{ password }}
+

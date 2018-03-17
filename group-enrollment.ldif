@@ -1,0 +1,20 @@
+dn:: Y249TWF0aDEwMSxvdT1TdHVkZW50RW5yb2xsbWVudCxvdT1tb29kbGUsZGM9a251LGRjPWtn
+changetype: delete
+-
+
+dn:: Y249TWF0aDEwMSxvdT1TdHVkZW50RW5yb2xsbWVudCxvdT1tb29kbGUsZGM9a251LGRjPWtn
+objectClass: top
+objectClass: posixGroup
+cn:: TWF0aDEwMQ==
+gidNumber: 504
+
+dn:: Y249RW5nMjAxLG91PVN0dWRlbnRFbnJvbGxtZW50LG91PW1vb2RsZSxkYz1rbnUsZGM9a2c=
+changetype: delete
+-
+
+dn:: Y249RW5nMjAxLG91PVN0dWRlbnRFbnJvbGxtZW50LG91PW1vb2RsZSxkYz1rbnUsZGM9a2c=
+objectClass: top
+objectClass: posixGroup
+cn:: RW5nMjAx
+gidNumber: 504
+

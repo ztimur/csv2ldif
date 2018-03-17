@@ -1,0 +1,3 @@
+dn: cn=Math101,ou=StudentEnrollment,ou=moodle,dc=knu,dc=kg
+changetype: modify
+delete: memberUid

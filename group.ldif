@@ -1,0 +1,9 @@
+version: 1
+
+dn: cn=Math101,ou=StudentEnrollment,ou=moodle,dc=knu,dc=kg
+objectClass: top
+objectClass: posixGroup
+cn: Math101
+gidNumber: 504
+memberUid: ate
+

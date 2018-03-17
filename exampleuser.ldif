@@ -1,0 +1,36 @@
+dn: CN=ldapuser,OU=Sotrudniki,DC=edu,DC=knu,DC=kg
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: user
+cn: ldapuser
+givenName: ldapuser
+distinguishedName: CN=ldapuser,OU=Sotrudniki,DC=edu,DC=knu,DC=kg
+displayName: ldapuser
+name: ldapuser
+userPrincipalName: ldapuser@edu.knu.kg
+instanceType: 4
+logonHours:: ////////////////////////////
+accountExpires: 0
+codePage: 0
+countryCode: 0
+uSNChanged: 1556
+uSNCreated: 1556
+whenChanged: 20001012214849.0Z
+whenCreated: 20001012214849.0Z
+sAMAccountName: ldapuser
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=edu,DC=knu,DC=kg
+
+dn: CN=ldapuser,OU=Sotrudniki,DC=edu,DC=knu,DC=kg
+changetype: modify
+replace: unicodePwd
+unicodePwd::IgBZAG8AdQByAE4AZQB3AFAAdwBkACIA
+-
+
+dn: CN=ldapuser,OU=Sotrudniki,DC=edu,DC=knu,DC=kg
+changetype: modify
+replace: userAccountControl
+userAccountControl: 66048
+-
+
